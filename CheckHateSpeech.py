@@ -70,7 +70,7 @@ with open('./CheckHateSpeech/i2t.json', 'r', encoding='utf-8') as f:
 import os
 print(os.listdir())
 
-model = load_model(__file__ + '/CheckHateSpeech/CheckHateSpeech.h5')
+model = load_model(os.join(os.realpath('__file__'), '/CheckHateSpeech/CheckHateSpeech.h5'))
 
 
 class Input(BaseModel):
