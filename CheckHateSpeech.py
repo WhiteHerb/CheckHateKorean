@@ -67,7 +67,7 @@ with open('./CheckHateSpeech/t2i.json', 'r', encoding='utf-8') as f:
 with open('./CheckHateSpeech/i2t.json', 'r', encoding='utf-8') as f:
     i2t = json.load(f)
 
-model = load_model('./CheckHateSpeech/CheckHateSpeech.h5')
+model = load_model('/CheckHateSpeech/CheckHateSpeech.h5')
 
 
 class Input(BaseModel):
