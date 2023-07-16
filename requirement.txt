@@ -73,13 +73,11 @@ pydub==0.25.1
 Pygments==2.15.1
 Pympler==1.0.1
 pyparsing==3.0.9
-pypiwin32==223
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 pytorch-lightning==1.7.1
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
-pywin32==306
 PyYAML==6.0
 regex==2023.5.5
 requests==2.31.0
@@ -119,7 +117,6 @@ uvicorn==0.22.0
 validators==0.20.0
 watchdog==3.0.0
 Werkzeug==2.3.6
-win32-setctime==1.1.0
 wrapt==1.15.0
 yarl==1.9.2
 zipp==3.15.0
