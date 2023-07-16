@@ -35,7 +35,7 @@ google-pasta==0.2.0
 grpcio==1.56.0
 gTTS==2.3.2
 h11==0.14.0
-h5py==3.9.0
+h5py==3.8.0
 huggingface-hub==0.15.1
 idna==3.4
 importlib-metadata==6.6.0
